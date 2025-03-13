@@ -8,15 +8,15 @@ namespace MantenimientoAPI.Models
         public int ID { get; set; }
 
         [Required]
-        public string Nombre { get; set; }
+        public required string Nombre { get; set; }
 
         [Required, EmailAddress]
-        public string Email { get; set; }
+        public required string Email { get; set; }
 
         [Required]
-        public string Contraseña { get; set; }
+        public required string Contraseña { get; set; }
 
         [Required]
-        public string Rol { get; set; }
+        public required string Rol { get; set; }
     }
 }

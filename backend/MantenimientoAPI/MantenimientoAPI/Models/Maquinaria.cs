@@ -8,10 +8,10 @@ namespace MantenimientoAPI.Models
         public int ID { get; set; }
 
         [Required]
-        public string Nombre { get; set; }
+        public required string Nombre { get; set; }
 
-        public string Modelo { get; set; }
-        public string Ubicacion { get; set; }
-        public string Estado { get; set; }
+        public required string Modelo { get; set; }
+        public required string Ubicacion { get; set; }
+        public required string Estado { get; set; }
     }
 }
